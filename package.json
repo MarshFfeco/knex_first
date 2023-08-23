@@ -1,0 +1,19 @@
+{
+  "name": "knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:latest": "npx knex migrate:latest",
+    "db:create": "npx knex migrate:create",
+    "db:down": "npx knex migrate:rollback"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "knex": "^2.5.1",
+    "mysql2": "^3.6.0"
+  }
+}
